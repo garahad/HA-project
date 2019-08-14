@@ -1,0 +1,55 @@
+.drdown {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.drdown .drbtn {
+	text-align: left;
+	font-size: 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: black;
+	padding: 14px 16px;
+	background-color: #f2f2f2;
+	font-family: inherit;
+	margin: 0;
+}
+
+.drdown:hover .drbtn {
+	background-color: #ddd;
+}
+
+.drdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.drdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid gray;
+}
+
+.drdown-content a:hover {
+	background-color: #ddd;
+}
+
+.drdown:hover .drdown-content {
+	display: block;
+}
+
+th,
+td {
+	padding: 15px;
+}
